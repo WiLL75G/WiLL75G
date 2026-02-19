@@ -30,6 +30,6 @@ Work in a SOC to detect, investigate, and respond to threats while strengthening
 
 ---
 
-                                     ⚡ “Detect. Analyze. Respond. Repeat.” ⚡
+                             ⚡ “Detect. Analyze. Respond. Repeat.” ⚡
 
 
