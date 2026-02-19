@@ -1,16 +1,35 @@
-## Hi there 👋
+# Gokah William
+### IT & SOC Analyst | Cybersecurity Enthusiast
 
-<!--
-**WiLL75G/WiLL75G** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+🛡️ Monitoring & Threat Detection | Incident Response | Blue Teaming  
+📊 SIEM: Splunk, Wazuh, Elastic | Windows & Linux | Python & Bash  
+🌐 Wireshark | Nmap | Log Analysis | Threat Intelligence  
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### 🚀 Current Focus
+Building a home SOC lab, practicing attack simulations, and improving detection & reporting skills.
+
+---
+
+### 🎯 Goal
+Work in a SOC to detect, investigate, and respond to threats while strengthening security posture.
+
+---
+
+### 👨🏾‍💻 IT/SOC Projects
+[Azure Virtual Machine Deployment & Network Connectivity](#) • [Creating Users in Active Directory](#) • [Resetting Passwords in Active Directory](#) • [ServiceNow Ticket Lifecycle & Resolution](#) • [osTicket Ticket Lifecycle & Resolution](#) • [VPN Configuration](#) • [Wireshark-Protocol-Analysis-Lab](https://github.com/WiLL75G/Wireshark-SOC-Protocol-Analysis-Lab) 
+
+⏱️ **Ongoing:** Tracking time spent on each project to build a portfolio of practical IT/SOC skills ▓▓▓▓▓░░░░
+
+
+---
+
+### 📫 Connect
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gokahWilliam/)
+
+---
+
+                                     ⚡ “Detect. Analyze. Respond. Repeat.” ⚡
+
+
