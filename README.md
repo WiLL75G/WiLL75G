@@ -18,7 +18,7 @@ Work in a SOC to detect, investigate, and respond to threats while strengthening
 ---
 
 ### 👨🏾‍💻 IT/SOC Projects
-[Azure Virtual Machine Deployment & Network Connectivity](https://github.com/WiLL75G/azure-vm-deployment-network-test) • [Creating Users in Active Directory](https://github.com/WiLL75G/Active-Directory-user-creation-lab) • [Resetting Passwords in Active Directory](#) • [ServiceNow Ticket Lifecycle & Resolution](#) • [osTicket Ticket Lifecycle & Resolution](#) • [VPN Configuration](#) • [Wireshark-Protocol-Analysis-Lab](https://github.com/WiLL75G/Wireshark-SOC-Protocol-Analysis-Lab) • [Linux Apache2 Webserver Lab](https://github.com/WiLL75G/apache2-soc-monitoring-lab)
+[Azure Virtual Machine Deployment & Network Connectivity](https://github.com/WiLL75G/azure-vm-deployment-network-test) • [Creating Users in Active Directory](https://github.com/WiLL75G/Active-Directory-user-creation-lab) • [Resetting Passwords in Active Directory](https://github.com/WiLL75G/Active-Directory-Password-Reset-lab) • [ServiceNow Ticket Lifecycle & Resolution](#) • [osTicket Ticket Lifecycle & Resolution](#) • [VPN Configuration](#) • [Wireshark-Protocol-Analysis-Lab](https://github.com/WiLL75G/Wireshark-SOC-Protocol-Analysis-Lab) • [Linux Apache2 Webserver Lab](https://github.com/WiLL75G/apache2-soc-monitoring-lab)
 
 ⏱️ **Ongoing:** Tracking time spent on each project to build a portfolio of practical IT/SOC skills ▓▓▓▓▓░░░░
 
