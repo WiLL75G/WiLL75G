@@ -38,7 +38,7 @@ This repository tracks my 28-day SOC Analyst learning journey. Each day is a rea
 ## 📁 All 28 SOC Analyst Projects
 | Day | Project | Status |
 |-----|--------|--------|
-| 01 | [SSH Brute Force Detection (Splunk)]() |🔲 →...|
+| 01 | [SSH Brute Force Detection (Splunk)](https://github.com/WiLL75G/soc-day01-ssh-brute-force-detection) |✅|
 | 02 | Phishing Email Analysis | 🔲 Coming soon |
 | 03 | Network Port Scan Detection (Wireshark) | 🔲 Coming soon |
 | 04 | Windows Event Log Analysis | 🔲 Coming soon |
