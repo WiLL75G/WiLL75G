@@ -16,7 +16,12 @@
 ---
 
 ## About Me
-I’m William, a self-taught cybersecurity learner focused on defensive security and growing into a SOC Analyst role. This repo documents my journey labs, mistakes, and lessons while building strong Blue Team, detection engineering, and SOC operations skills.
+
+I'm **William** — a cybersecurity practitioner building toward a **SOC Analyst** role with a focus on **defensive security, detection engineering, and incident response**. This repository documents structured, hands-on work across the Blue Team skill stack: alert triage, log analysis, SIEM investigations, and threat hunting.
+
+Every project here is built to mirror the workflows of a working SOC — not tutorial replays. The goal is demonstrable competence: detections I've written, incidents I've walked through end-to-end, and tooling I can speak to in an interview.
+
+📍 **Currently:** Day 02 of 28 · **Next milestone:** [https://github.com/users/WiLL75G/projects/3/views/2?layout_template=board&pane=issue&itemId=181833112]
 
 ---
 
