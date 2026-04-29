@@ -39,33 +39,34 @@ This repository tracks my 28-day SOC Analyst learning journey. Each day is a rea
 | Day | Project | Status |
 |-----|--------|--------|
 | 01 | [SSH Brute Force Detection (Splunk)](https://github.com/WiLL75G/soc-day01-ssh-brute-force-detection) |✅|
-| 02 | Phishing Email Analysis (https://github.com/WiLL75G/soc-day02-phishing-email-analysis)|✅|
-| 03 | Network Port Scan Detection (Wireshark) | 🔲 Coming soon |
-| 04 | Windows Event Log Analysis | 🔲 Coming soon |
-| 05 | Linux Log Analysis & File Integrity | 🔲 Coming soon |
-| 06 | Active Directory Password Spray Detection | 🔲 Coming soon |
-| 07 | Malware Analysis & Threat Hunting | 🔲 Coming soon |
-| 08 | Splunk SIEM Alerts & Dashboard | 🔲 Coming soon |
-| 09 | Incident Response Playbook | 🔲 Coming soon |
-| 10 | MITRE ATT&CK Detection Coverage | 🔲 Coming soon |
-| 11 | Vulnerability Scanning & Remediation | 🔲 Coming soon |
-| 12 | Firewall Rules & Network Segmentation | 🔲 Coming soon |
-| 13 | PowerShell SOC Toolkit | 🔲 Coming soon |
-| 14 | Threat Intelligence & OSINT | 🔲 Coming soon |
-| 15 | SOC Shift Simulation Capstone | 🔲 Coming soon |
-| 16 | AWS Cloud Security Investigation | 🔲 Coming soon |
-| 17 | Social Engineering Awareness | 🔲 Coming soon |
-| 18 | Regex Log Parsing Toolkit | 🔲 Coming soon |
-| 19 | Job Search Resources | 🔲 Coming soon |
-| 20 | SOC Interview Prep Guide | 🔲 Coming soon |
-| 21 | Wazuh EDR Lab | 🔲 Coming soon |
-| 22 | Zero Trust Architecture | 🔲 Coming soon |
-| 23 | Digital Forensics Investigation | 🔲 Coming soon |
-| 24 | Threat Modeling (STRIDE/DREAD) | 🔲 Coming soon |
-| 25 | SOC Metrics Dashboard | 🔲 Coming soon |
-| 26 | OverTheWire Bandit Writeups | 🔲 Coming soon |
-| 27 | Compliance Framework Mapping | 🔲 Coming soon |
-| 28 | Advanced Splunk Intelligence Platform | 🔲 Coming soon |
+| 01 | [SSH Brute Force Detection (Splunk)](https://github.com/WiLL75G/soc-day01-ssh-brute-force-detection) | ✅ |
+| 02 | [Phishing Email Analysis](https://github.com/WiLL75G/soc-day02-phishing-email-analysis) | 🔲 |
+| 03 | [Network Port Scan Detection (Wireshark)](https://github.com/WiLL75G/soc-day03-port-scan-detection) | 🔲 Coming soon |
+| 04 | [Windows Event Log Analysis](https://github.com/WiLL75G/soc-day04-windows-event-log-analysis) | 🔲 Coming soon |
+| 05 | [Linux Log Analysis & File Integrity](https://github.com/WiLL75G/soc-day05-linux-log-analysis) | 🔲 Coming soon |
+| 06 | [Active Directory Password Spray Detection](https://github.com/WiLL75G/soc-day06-ad-password-spray) | 🔲 Coming soon |
+| 07 | [Malware Analysis & Threat Hunting](https://github.com/WiLL75G/soc-day07-malware-analysis) | 🔲 Coming soon |
+| 08 | [Splunk SIEM Alerts & Dashboard](https://github.com/WiLL75G/soc-day08-splunk-siem-dashboard) | 🔲 Coming soon |
+| 09 | [Incident Response Playbook](https://github.com/WiLL75G/soc-day09-incident-response) | 🔲 Coming soon |
+| 10 | [MITRE ATT&CK Detection Coverage](https://github.com/WiLL75G/soc-day10-mitre-attack) | 🔲 Coming soon |
+| 11 | [Vulnerability Scanning & Remediation](https://github.com/WiLL75G/soc-day11-vulnerability-scanning) | 🔲 Coming soon |
+| 12 | [Firewall Rules & Network Segmentation](https://github.com/WiLL75G/soc-day12-firewall-rules) | 🔲 Coming soon |
+| 13 | [PowerShell SOC Toolkit](https://github.com/WiLL75G/soc-day13-powershell-toolkit) | 🔲 Coming soon |
+| 14 | [Threat Intelligence & OSINT](https://github.com/WiLL75G/soc-day14-threat-intel-osint) | 🔲 Coming soon |
+| 15 | [SOC Shift Simulation Capstone](https://github.com/WiLL75G/soc-day15-soc-capstone) | 🔲 Coming soon |
+| 16 | [AWS Cloud Security Investigation](https://github.com/WiLL75G/soc-day16-aws-security) | 🔲 Coming soon |
+| 17 | [Social Engineering Awareness](https://github.com/WiLL75G/soc-day17-social-engineering) | 🔲 Coming soon |
+| 18 | [Regex Log Parsing Toolkit](https://github.com/WiLL75G/soc-day18-regex-toolkit) | 🔲 Coming soon |
+| 19 | [Job Search Resources](https://github.com/WiLL75G/soc-day19-job-resources) | 🔲 Coming soon |
+| 20 | [SOC Interview Prep Guide](https://github.com/WiLL75G/soc-day20-soc-interview-prep) | 🔲 Coming soon |
+| 21 | [Wazuh EDR Lab](https://github.com/WiLL75G/soc-day21-wazuh-edr) | 🔲 Coming soon |
+| 22 | [Zero Trust Architecture](https://github.com/WiLL75G/soc-day22-zero-trust) | 🔲 Coming soon |
+| 23 | [Digital Forensics Investigation](https://github.com/WiLL75G/soc-day23-digital-forensics) | 🔲 Coming soon |
+| 24 | [Threat Modeling (STRIDE/DREAD)](https://github.com/WiLL75G/soc-day24-threat-modeling) | 🔲 Coming soon |
+| 25 | [SOC Metrics Dashboard](https://github.com/WiLL75G/soc-day25-soc-metrics) | 🔲 Coming soon |
+| 26 | [OverTheWire Bandit Writeups](https://github.com/WiLL75G/soc-day26-overthewire-bandit) | 🔲 Coming soon |
+| 27 | [Compliance Framework Mapping](https://github.com/WiLL75G/soc-day27-compliance-mapping) | 🔲 Coming soon |
+| 28 | [Advanced Splunk Intelligence Platform](https:// github.com/WiLL75G/soc-day28-advanced-splunk) | 🔲 Coming soon |
 
 ---
 
