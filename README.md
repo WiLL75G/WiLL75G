@@ -66,7 +66,7 @@ This repository tracks my 28-day SOC Analyst learning journey. Each day is a rea
 | 25 | [SOC Metrics Dashboard](https://github.com/WiLL75G/soc-day25-soc-metrics) | 🔲 Coming soon |
 | 26 | [OverTheWire Bandit Writeups](https://github.com/WiLL75G/soc-day26-overthewire-bandit) | 🔲 Coming soon |
 | 27 | [Compliance Framework Mapping](https://github.com/WiLL75G/soc-day27-compliance-mapping) | 🔲 Coming soon |
-| 28 | [Advanced Splunk Intelligence Platform](https:// github.com/WiLL75G/soc-day28-advanced-splunk) | 🔲 Coming soon |
+| 28 | [Advanced Splunk Intelligence Platform] (https://github.com/WiLL75G/soc-day28-advanced-splunk) | 🔲 Coming soon |
 
 ---
 
