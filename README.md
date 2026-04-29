@@ -61,24 +61,7 @@ This repository tracks my 28-day SOC Analyst learning journey. Each day is a rea
 | 08 | [Splunk SIEM Alerts & Dashboard](#) | 🔲 Coming soon |
 | 09 | [Incident Response Playbook](#) | 🔲 Coming soon |
 | 10 | [MITRE ATT&CK Detection Coverage](#) | 🔲 Coming soon |
-| 11 | [Vulnerability Scanning & Remediation](#) | 🔲 Coming soon |
-| 12 | [Firewall Rules & Network Segmentation](#) | 🔲 Coming soon |
-| 13 | [PowerShell SOC Toolkit](#) | 🔲 Coming soon |
-| 14 | [Threat Intelligence & OSINT](#) | 🔲 Coming soon |
-| 15 | [SOC Shift Simulation Capstone](#) | 🔲 Coming soon |
-| 16 | [AWS Cloud Security Investigation](#) | 🔲 Coming soon |
-| 17 | [Social Engineering Awareness](#) | 🔲 Coming soon |
-| 18 | [Regex Log Parsing Toolkit](#) | 🔲 Coming soon |
-| 19 | [Job Search Resources](#) | 🔲 Coming soon |
-| 20 | [SOC Interview Prep Guide](#) | 🔲 Coming soon |
-| 21 | [Wazuh EDR Lab](#) | 🔲 Coming soon |
-| 22 | [Zero Trust Architecture](#) | 🔲 Coming soon |
-| 23 | [Digital Forensics Investigation](#) | 🔲 Coming soon |
-| 24 | [Threat Modeling (STRIDE/DREAD)](#) | 🔲 Coming soon |
-| 25 | [SOC Metrics Dashboard](#) | 🔲 Coming soon |
-| 26 | [OverTheWire Bandit Writeups](#) | 🔲 Coming soon |
-| 27 | [Compliance Framework Mapping](#) | 🔲 Coming soon |
-| 28 | [Advanced Splunk Intelligence Platform](#) | 🔲 Coming soon |
+....................
 
 
 ---
