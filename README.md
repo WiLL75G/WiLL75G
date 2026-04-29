@@ -33,6 +33,7 @@ I’m William, a self-taught cybersecurity learner focused on defensive security
 </div>
 
 ---
+
 ## 📂 Repository Structure
 
 \`\`\`
