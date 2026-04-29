@@ -21,7 +21,8 @@ I’m William, a self-taught cybersecurity learner focused on defensive security
 ---
 
 ## 📊 Project Board
-👉 [View My Project Board](https://github.com/users/WiLL75G/projects/3/views/2?layout_template=board)
+
+[![📊 View Project Board](https://img.shields.io/badge/VIEW-PROJECT%20BOARD-blue?style=for-the-badge)](https://github.com/users/WiLL75G/projects/3/views/2?layout_template=board)
 
 ---
 
