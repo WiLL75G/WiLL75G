@@ -33,14 +33,17 @@ I’m William, a self-taught cybersecurity learner focused on defensive security
 </div>
 
 ---
+## 📂 Repository Structure
 
-## About This Project
-This repository tracks my 28-day SOC Analyst learning journey. Each day is a real cybersecurity project focused on:
-- Threat detection
-- Incident response
-- Log analysis
-- SIEM investigations
-- Network security
+\`\`\`
+├── 📁 day-01-to-07/   → Foundations: logging, Sysmon, baseline detection
+├── 📁 day-08-to-14/   → SIEM operations: Splunk/ELK queries & dashboards
+├── 📁 day-15-to-21/   → Detection engineering: Sigma rules, ATT&CK mapping
+├── 📁 day-22-to-28/   → Incident response: full IR scenarios & reports
+├── 📁 detections/     → Production-ready Sigma rules
+├── 📁 runbooks/       → SOC analyst playbooks
+└── 📁 reports/        → Investigation writeups & post-mortems
+\`\`\`
 
 ---
 
