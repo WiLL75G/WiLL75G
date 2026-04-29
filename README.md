@@ -20,9 +20,12 @@ I’m William, a self-taught cybersecurity learner focused on defensive security
 
 ---
 
-## 📊 Project Board
+## 📊 SOC Operations Board
 
-[![📊 View Project Board](https://img.shields.io/badge/VIEW-PROJECT%20BOARD-blue?style=for-the-badge)](https://github.com/users/WiLL75G/projects/3/views/2?layout_template=board)
+| [![SOC Board](https://img.shields.io/badge/🛡️_SOC_OPERATIONS_BOARD-Open_Live_Dashboard-00ff41?style=for-the-badge&logo=github&logoColor=black&labelColor=0d1117)](https://github.com/users/WiLL75G/projects/3/views/2?layout_template=board) |
+|:---:|
+| **Real-time tracking of alerts, investigations, and incident response** |
+| 🔴 Critical · 🟠 High · 🟡 Medium · 🟢 Resolved |
 
 ---
 
