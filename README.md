@@ -61,7 +61,7 @@ This repository tracks my 28-day SOC Analyst learning journey. Each day is a rea
 | 08 | [Splunk SIEM Alerts & Dashboard](#) | 🔲 Coming soon |
 | 09 | [Incident Response Playbook](#) | 🔲 Coming soon |
 | 10 | [MITRE ATT&CK Detection Coverage](#) | 🔲 Coming soon |
-....................
+| 11 | ...................
 
 
 ---
