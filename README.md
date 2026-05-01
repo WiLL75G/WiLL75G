@@ -24,7 +24,7 @@ Every project here is built to mirror the workflows of a working SOC not tutoria
 
 ---
 
-## 📊 SOC Operations Board
+## SOC Operations Board
 
 <div align="center">
 
@@ -48,7 +48,7 @@ This repository tracks my 28-day SOC Analyst learning journey. Each day is a rea
 
 ---
 
-## 📁 All 28 SOC Analyst Projects
+## All 28 SOC Analyst Projects
 | Day | Project | Status |
 |-----|--------|--------|
 | 01 | [SSH Brute Force Detection (Splunk)](https://github.com/WiLL75G/soc-day01-ssh-brute-force-detection) |✅|
