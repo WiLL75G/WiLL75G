@@ -55,7 +55,12 @@ This repository tracks my 28-day SOC Analyst learning journey. Each day is a rea
 | 02 | [Phishing Email Analysis](https://github.com/WiLL75G/soc-day02-phishing-email-analysis) |✅|
 | 03 | [Network Port Scan Detection (Wireshark)](https://github.com/WiLL75G/soc-day03-port-scan-detection-wireshark) |✅|
 | 04 | [Windows Event Log Analysis](https://github.com/WiLL75G/soc-day04-windows-event-log-analysis) |✅|
-
+| 05 | [Linux Log Analysis & File Integrity](#) | 🔲 Coming soon | 
+| 06 | [Active Directory Password Spray Detection](#) | 🔲 Coming soon | | 
+| 07 | [Malware Analysis & Threat Hunting](#) | 🔲 Coming soon | 
+| 08 | [Splunk SIEM Alerts & Dashboard](#) | 🔲 Coming soon | 
+| 09 | [Incident Response Playbook](#) | 🔲 Coming soon | 
+| 10 | [MITRE ATT&CK Detection Coverage](#) | 🔲 Coming soon |
 
 
 ---
