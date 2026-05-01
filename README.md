@@ -11,7 +11,7 @@
 ![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=for-the-badge&logo=powershell&logoColor=white)
 ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
 
-**Current status:** Day 03 complete ✅ actively building.
+**Current status:** Day 04 complete ✅ actively building.
 
 ---
 
@@ -54,7 +54,7 @@ This repository tracks my 28-day SOC Analyst learning journey. Each day is a rea
 | 01 | [SSH Brute Force Detection (Splunk)](https://github.com/WiLL75G/soc-day01-ssh-brute-force-detection) |✅|
 | 02 | [Phishing Email Analysis](https://github.com/WiLL75G/soc-day02-phishing-email-analysis) |✅|
 | 03 | [Network Port Scan Detection (Wireshark)](https://github.com/WiLL75G/soc-day03-port-scan-detection-wireshark) |✅|
-| 04 | [Windows Event Log Analysis](#) | 🔲 Coming soon |
+| 04 | [Windows Event Log Analysis](https://github.com/WiLL75G/soc-day04-windows-event-log-analysis) |✅|
 
 
 
