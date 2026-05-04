@@ -13,7 +13,7 @@
 ![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=for-the-badge&logo=powershell&logoColor=white)
 ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
 
-**Current status:** Day 05 complete ✅ actively building.
+**Current status:** Day 07 complete ✅ actively building.
 
 ---
 
@@ -59,7 +59,7 @@ This repository tracks my 28-day SOC Analyst learning journey. Each day is a rea
 | 04 | [Windows Event Log Analysis](https://github.com/WiLL75G/soc-day04-windows-event-log-analysis) |✅|
 | 05 | [Linux Log Analysis & File Integrity](https://github.com/WiLL75G/soc-day05-linux-log-analysis-file-integrity) |✅| 
 | 06 | [Active Directory Password Spray Detection](https://github.com/WiLL75G/soc-day06-ad-password-spray-detection) |✅| 
-| 07 | [Malware Analysis & Threat Hunting](#) | 🔲 Coming soon | 
+| 07 | [Malware Analysis & Threat Hunting](https://github.com/WiLL75G/soc-day07-malware-analysis-threat-hunting) |✅| 
 | 08 | [Splunk SIEM Alerts & Dashboard](#) | 🔲 Coming soon | 
 | 09 | [Incident Response Playbook](#) | 🔲 Coming soon | 
 | 10 | [MITRE ATT&CK Detection Coverage](#) | 🔲 Coming soon |
