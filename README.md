@@ -13,7 +13,7 @@
 ![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=for-the-badge&logo=powershell&logoColor=white)
 ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
 
-**Current status:** Day 09 complete ✅ actively building.
+**Current status:** Day 10 complete ✅ actively building.
 
 ---
 
@@ -62,7 +62,7 @@ This repository tracks my 28-day SOC Analyst learning journey. Each day is a rea
 | 07 | [Malware Analysis & Threat Hunting](https://github.com/WiLL75G/soc-day07-malware-analysis-threat-hunting) |✅| 
 | 08 | [Splunk SIEM Alerts & Dashboard](https://github.com/WiLL75G/soc-day08-splunk-siem-alerts-dashboard) |✅| 
 | 09 | [Incident Response Playbook](https://github.com/WiLL75G/soc-day09-incident-response-playbook) |✅| 
-| 10 | [MITRE ATT&CK Detection Coverage](#) | 🔲 Coming soon |
+| 10 | [MITRE ATT&CK Detection Coverage](https://github.com/WiLL75G/soc-day10-mitre-attack-mapping) |✅|
 
 
 ---
