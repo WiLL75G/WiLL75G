@@ -13,7 +13,7 @@
 ![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=for-the-badge&logo=powershell&logoColor=white)
 ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
 
-**Current status:** Day 12 complete ✅ actively building.
+**Current status:** Day 13 complete ✅ actively building.
 
 ---
 
@@ -65,7 +65,7 @@ This repository tracks my 28-day SOC Analyst learning journey. Each day is a rea
 | 10 | [MITRE ATT&CK Detection Coverage](https://github.com/WiLL75G/soc-day10-mitre-attack-mapping) |✅|
 | 11 | [Vulnerability Scanning & Remediation](https://github.com/WiLL75G/soc-day11-vulnerability-scanning-remediation) |✅|
 | 12 | [Firewall Rules & Network Segmentation](https://github.com/WiLL75G/soc-day12-firewall-network-segmentation) |✅|
-| 13 | [PowerShell SOC Toolkit](#) | 🔲 Coming soon | 
+| 13 | [PowerShell SOC Toolkit](https://github.com/WiLL75G/soc-day13-powershell-soc-toolkit) |✅| 
 | 14 | [Threat Intelligence & OSINT](#) | 🔲 Coming soon | 
 | 15 | [SOC Shift Simulation Capstone](#) | 🔲 Coming soon | 
 | 16 | [AWS Cloud Security Investigation](#) | 🔲 Coming soon | 
