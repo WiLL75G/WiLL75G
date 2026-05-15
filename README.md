@@ -13,7 +13,7 @@
 ![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=for-the-badge&logo=powershell&logoColor=white)
 ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
 
-**Current status:** Day 15 complete ✅ actively building.
+**Current status:** Day 16 complete ✅ actively building.
 
 ---
 
@@ -68,7 +68,7 @@ This repository tracks my 28-day SOC Analyst learning journey. Each day is a rea
 | 13 | [PowerShell SOC Toolkit](https://github.com/WiLL75G/soc-day13-powershell-soc-toolkit) |✅| 
 | 14 | [Threat Intelligence & OSINT](https://github.com/WiLL75G/soc-day14-threat-intelligence-osint) |✅| 
 | 15 | [SOC Shift Simulation Capstone](https://github.com/WiLL75G/soc-day15-soc-shift-simulation) |✅| 
-| 16 | [AWS Cloud Security Investigation](#) | 🔲 Coming soon | 
+| 16 | [AWS Cloud Security Investigation](https://github.com/WiLL75G/soc-day16-aws-cloud-security-investigation) |✅| 
 | 17 | [Social Engineering Awareness](#) | 🔲 Coming soon | 
 | 18 | [Regex Log Parsing Toolkit](#) | 🔲 Coming soon | 
 | 19 | [Job Search Resources](#) | 🔲 Coming soon | 
