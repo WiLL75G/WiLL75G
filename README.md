@@ -86,6 +86,6 @@ Build a real-world SOC Analyst portfolio through hands-on cybersecurity projects
 > Open to networking and collaboration in cybersecurity and Blue Team learning. 
 
 ---
-                        ⚡ “ Monitor. Detect. Analyze. Respond. Repeat.” ⚡
+                        ⚡ “Monitor. Detect. Analyze. Respond. Repeat.” ⚡
 
 ---
