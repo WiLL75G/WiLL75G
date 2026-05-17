@@ -70,9 +70,10 @@ This repository tracks my 28-day SOC Analyst learning journey. Each day is a rea
 | 15 | [SOC Shift Simulation Capstone](https://github.com/WiLL75G/soc-day15-soc-shift-simulation) |✅| 
 | 16 | [AWS Cloud Security Investigation](https://github.com/WiLL75G/soc-day16-aws-cloud-security-investigation) |✅| 
 | 17 | [Social Engineering Awareness](https://github.com/WiLL75G/soc-day17-social-engineering-awareness) |✅| 
-| 18 | [Regex Log Parsing Toolkit](#) | 🔲 Coming soon | 
+| 18 | [Network Traffic Analysis (Wireshark Lab)](#) | 🔲 Coming soon |
 | 19 | [Job Search Resources](#) | 🔲 Coming soon | 
-| 20 | [SOC Interview Prep Guide](#) | 🔲 Coming soon |
+| 20 | [SOC Interview Prep Guide](#) | 🔲 Coming soon || 21
+| 21   | [Regex Log Parsing Toolkit](#) | 🔲 Coming soon | 
 
 ---
 
