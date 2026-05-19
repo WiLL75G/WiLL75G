@@ -13,7 +13,7 @@
 ![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=for-the-badge&logo=powershell&logoColor=white)
 ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
 
-**Current status:** Day 18 complete ✅ actively building.
+**Current status:** Day 20 complete ✅ actively building.
 
 ---
 
@@ -71,8 +71,8 @@ This repository tracks my 28-day SOC Analyst learning journey. Each day is a rea
 | 16 | [AWS Cloud Security Investigation](https://github.com/WiLL75G/soc-day16-aws-cloud-security-investigation) |✅| 
 | 17 | [Social Engineering Awareness](https://github.com/WiLL75G/soc-day17-social-engineering-awareness) |✅| 
 | 18 | [Network Traffic Analysis (Wireshark Lab)](https://github.com/WiLL75G/soc-day18-network-traffic-analysis-wireshark-lab) |✅|
-| 19 | [Job Search Resources](#) | 🔲 Coming soon | 
-| 20 | [SOC Interview Prep Guide](#) | 🔲 Coming soon || 21
+| 19 | [Job Search Resources](https://github.com/WiLL75G/soc-day19-soc-job-search-resources) |✅| 
+| 20 | [SOC Interview Prep Guide](https://github.com/WiLL75G/soc-day20-soc-interview-preparation) |✅|
 | 21   | [Regex Log Parsing Toolkit](#) | 🔲 Coming soon | 
 
 ---
