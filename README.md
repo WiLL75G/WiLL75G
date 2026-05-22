@@ -74,7 +74,13 @@ This repository tracks my 28-day SOC Analyst learning journey. Each day is a rea
 | 19 | [Job Search Resources](https://github.com/WiLL75G/soc-day19-soc-job-search-resources) |✅| 
 | 20 | [SOC Interview Prep Guide](https://github.com/WiLL75G/soc-day20-soc-interview-preparation) |✅|
 | 21 | [Regex Log Parsing Toolkit](https://github.com/WiLL75G/soc-day21-regex-log-parsing-toolkit) |✅| 
-
+| 22 | [Zero Trust Architecture](#) | 🔲 Coming Soon |
+| 23 | [Digital Forensics Investigation](#) | 🔲 Coming Soon |
+| 24 | [Threat Modeling Using STRIDE & DREAD](#) | 🔲 Coming Soon |
+| 25 | [SOC Metrics Dashboard](#) | 🔲 Coming Soon |
+| 26 | [OverTheWire Bandit Writeups](#) | 🔲 Coming Soon |
+| 27 | [Compliance Framework Mapping](#) | 🔲 Coming Soon |
+| 28 | [Advanced Splunk Intelligence Platform](#) | 🔲 Coming Soon |
 ---
 
 ## Goal
