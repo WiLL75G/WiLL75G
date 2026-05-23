@@ -13,7 +13,7 @@
 ![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=for-the-badge&logo=powershell&logoColor=white)
 ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
 
-**Current status:** Day 21 complete ✅ actively building.
+**Current status:** Day 22 complete ✅ actively building.
 
 ---
 
@@ -74,7 +74,7 @@ This repository tracks my 28-day SOC Analyst learning journey. Each day is a rea
 | 19 | [Job Search Resources](https://github.com/WiLL75G/soc-day19-soc-job-search-resources) |✅| 
 | 20 | [SOC Interview Prep Guide](https://github.com/WiLL75G/soc-day20-soc-interview-preparation) |✅|
 | 21 | [Regex Log Parsing Toolkit](https://github.com/WiLL75G/soc-day21-regex-log-parsing-toolkit) |✅| 
-| 22 | [Wazuh EDR Lab](#) | 🔲 Coming Soon |
+| 22 | [Wazuh EDR Lab](https://github.com/WiLL75G/soc-day22-edr-wazuh-endpoint-detection-lab) |✅|
 | 23 | [Zero Trust Architecture](#) | 🔲 Coming Soon |
 | 24 | [Digital Forensics Investigation](#) | 🔲 Coming Soon |
 | 25 | [Threat Modeling Using STRIDE & DREAD](#) | 🔲 Coming Soon |
