@@ -4,16 +4,15 @@
 **Target stack (building toward):**
 
 ![Splunk](https://img.shields.io/badge/Splunk-000000?style=for-the-badge&logo=splunk&logoColor=white)
+![Microsoft Sentinel](https://img.shields.io/badge/Microsoft_Sentinel-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
 ![Microsoft Azure](https://img.shields.io/badge/Microsoft_Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
-![Wazuh](https://img.shields.io/badge/Wazuh-005571?style=for-the-badge&logo=wazuh&logoColor=white)
-![Suricata](https://img.shields.io/badge/Suricata-EE3124?style=for-the-badge&logoColor=white)
-![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
-![Kali Linux](https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kalilinux&logoColor=white)
+![KQL](https://img.shields.io/badge/KQL-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
+![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white)
 ![MITRE ATT&CK](https://img.shields.io/badge/MITRE_ATT%26CK-C8102E?style=for-the-badge&logoColor=white)
 ![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=for-the-badge&logo=powershell&logoColor=white)
 ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
 
-**Current status:** Day 27 complete ✅ actively building.
+**Current status:** Day 28 complete ✅ actively building.
 
 ---
 
@@ -80,7 +79,7 @@ This repository tracks my 28-day SOC Analyst learning journey. Each day is a rea
 | 25 | [Threat Modeling Using STRIDE & DREAD](https://github.com/WiLL75G/soc-25-threat-modeling-stride-dread) |✅|
 | 26 | [SOC Metrics Dashboard](https://github.com/WiLL75G/soc-26-soc-metrics-dashboard) |✅|
 | 27 | [Compliance Framework Mapping](https://github.com/WiLL75G/soc-27-compliance-framework-mapping) |✅|
-| 28 | [Advanced Splunk Intelligence Platform](#) | 🔲 Coming Soon |
+| 28 | [Advanced Splunk Intelligence Platform](https://github.com/WiLL75G/soc-28-advanced-splunk-intelligence-platform) |✅|
 ---
 
 ## Goal
