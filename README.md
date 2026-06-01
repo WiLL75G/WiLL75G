@@ -1,4 +1,4 @@
-# 🛡️ SOC Analyst Journey 
+## SOC Analyst Project Portfolio
 > 28-Day SOC Analyst Portfolio | Blue Team | Detection Engineering | Building in Public 
 
 **Target stack (building toward):**
