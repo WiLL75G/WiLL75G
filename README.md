@@ -79,7 +79,9 @@ This repository tracks my 28-day SOC Analyst learning journey. Each day is a rea
 | 25 | [Threat Modeling Using STRIDE & DREAD](https://github.com/WiLL75G/soc-25-threat-modeling-stride-dread) |✅|
 | 26 | [SOC Metrics Dashboard](https://github.com/WiLL75G/soc-26-soc-metrics-dashboard) |✅|
 | 27 | [Compliance Framework Mapping](https://github.com/WiLL75G/soc-27-compliance-framework-mapping) |✅|
-| 28 | [Advanced Splunk Intelligence Platform](https://github.com/WiLL75G/soc-28-advanced-splunk-intelligence-platform) |✅|
+| 28 | [Advanced Splunk Intelligence Platform](https://github.com/WiLL75G/soc-28-advanced-splunk-intelligence-platform) |✅ 
+| 29 | [Portfolio Audit & README Polishing](https://github.com/WiLL75G/soc-29-portfolio-audit) | 🔲 |
+| 30 | [OverTheWire Bandit Challenge](https://github.com/WiLL75G/soc-30-overthewire-bandit) | 🔲 |
 ---
 
 ## Goal
