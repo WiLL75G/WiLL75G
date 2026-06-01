@@ -12,7 +12,7 @@
 ![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=for-the-badge&logo=powershell&logoColor=white)
 ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
 
-**Current status:** Day 28 complete ✅ actively building.
+**Current status:** Day 29 in progress 🔄 actively building.
 
 ---
 
