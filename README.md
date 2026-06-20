@@ -68,6 +68,8 @@ Build a real-world SOC Analyst portfolio through hands-on detection, investigati
 ---
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Gokah%20William-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/gokahwilliam)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Gokah%20William-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/gokahwilliam)
+[![X](https://img.shields.io/badge/X-@WilliamInCyber-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/WilliamInCyber)
 
 > Open to networking and collaboration in cybersecurity and Blue Team learning.
 
