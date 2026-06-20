@@ -20,20 +20,22 @@ I'm **William**, a cybersecurity practitioner building toward a **SOC Analyst** 
 
 Every project here is built to mirror the workflows of a working SOC, not tutorial replays. The goal is demonstrable competence: detections I've written, incidents I've walked through end-to-end, and tooling I can speak to in an interview.
 
+**Certifications:** ISC2 Certified in Cybersecurity (CC) | CompTIA Security+ (in progress)
+
 ---
 
 ## Core SOC Projects
 
 The detection, triage, and incident response work most representative of day-to-day SOC analyst operations.
 
-| Project | Focus | Status |
-|--------|-------|--------|
-| [SSH Brute Force Detection (Splunk)](https://github.com/WiLL75G/soc-day01-ssh-brute-force-detection) | SIEM detection, log analysis, MITRE T1110 | ✅ |
-| [Phishing Email Analysis](https://github.com/WiLL75G/soc-day02-phishing-email-analysis) | Email triage, IOC extraction, MITRE T1566 | ✅ |
-| [Splunk SIEM Alerts & Dashboard](https://github.com/WiLL75G/soc-day08-splunk-siem-alerts-dashboard) | Alert engineering, dashboards | ✅ |
-| [Incident Response Playbook](https://github.com/WiLL75G/soc-day09-incident-response-playbook) | IR workflow, containment | ✅ |
-| [Network Traffic Analysis (Wireshark)](https://github.com/WiLL75G/soc-day18-network-traffic-analysis-wireshark-lab) | Packet inspection, anomaly detection | ✅ |
-| [MITRE ATT&CK Detection Coverage](https://github.com/WiLL75G/soc-day10-mitre-attack-mapping) | Detection mapping, coverage analysis | ✅ |
+| Project | Focus | Technique | Status |
+|--------|-------|-----------|--------|
+| [SSH Brute Force Detection (Splunk)](https://github.com/WiLL75G/soc-day01-ssh-brute-force-detection) | SIEM detection, log analysis | T1110 | ✅ |
+| [Phishing Email Analysis](https://github.com/WiLL75G/soc-day02-phishing-email-analysis) | Email triage, IOC extraction | T1566 | ✅ |
+| [Splunk SIEM Alerts & Dashboard](https://github.com/WiLL75G/soc-day08-splunk-siem-alerts-dashboard) | Alert engineering, dashboards | — | ✅ |
+| [Incident Response Playbook](https://github.com/WiLL75G/soc-day09-incident-response-playbook) | IR workflow, containment | — | ✅ |
+| [Network Traffic Analysis (Wireshark)](https://github.com/WiLL75G/soc-day18-network-traffic-analysis-wireshark-lab) | Packet inspection, anomaly detection | — | ✅ |
+| [MITRE ATT&CK Detection Coverage](https://github.com/WiLL75G/soc-day10-mitre-attack-mapping) | Detection mapping, coverage analysis | — | ✅ |
 
 ---
 
