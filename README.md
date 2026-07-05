@@ -1,4 +1,4 @@
-## SOC Analyst Project Portfolio
+## Detection Engineering & SOC Portfolio
 
 > Blue Team | Detection Engineering | Incident Response
 
@@ -8,16 +8,18 @@
 ![Microsoft Sentinel](https://img.shields.io/badge/Microsoft_Sentinel-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
 ![Microsoft Azure](https://img.shields.io/badge/Microsoft_Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
 ![KQL](https://img.shields.io/badge/KQL-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
+![Sigma](https://img.shields.io/badge/Sigma-008080?style=for-the-badge&logoColor=white)
 ![Wazuh](https://img.shields.io/badge/Wazuh-005792?style=for-the-badge&logo=wazuh&logoColor=white)
 ![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white)
 ![MITRE ATT&CK](https://img.shields.io/badge/MITRE_ATT%26CK-C8102E?style=for-the-badge&logoColor=white)
 ![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=for-the-badge&logo=powershell&logoColor=white)
 ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
+
 ---
 
 ## About Me
 
-I'm **William**, a cybersecurity practitioner building toward a **SOC Analyst** role with a focus on **defensive security, detection engineering, and incident response**. This repository documents structured, hands-on work across the Blue Team skill stack: alert triage, log analysis, SIEM investigations, and threat hunting.
+I'm **William**, a detection engineer and SOC analyst (early-career) focused on **defensive security, detection engineering, and incident response**. This repository documents structured, hands-on work across the Blue Team skill stack: alert triage, log analysis, SIEM investigations, detection authoring, and threat hunting.
 
 Every project here is built to mirror the workflows of a working SOC, not tutorial replays. The goal is demonstrable competence: detections I've written, incidents I've walked through end-to-end, and tooling I can speak to in an interview.
 
@@ -27,13 +29,15 @@ Every project here is built to mirror the workflows of a working SOC, not tutori
 
 ## Core SOC Projects
 
-The detection, triage, and incident response work most representative of day-to-day SOC analyst operations.
+The detection, triage, and incident response work most representative of day-to-day SOC and detection engineering operations.
 
 | Project | Focus | Technique | Status |
 |--------|-------|-----------|--------|
 | [SSH Brute Force Detection (Splunk)](https://github.com/WiLL75G/soc-day01-ssh-brute-force-detection) | SIEM detection, log analysis | T1110 | ✅ |
+| [Microsoft Sentinel SOC Lab (KQL)](https://github.com/WiLL75G/sentinel-soc-lab-setup) | Cloud SIEM, KQL analytics rules, hunting | T1110, T1078 | ✅ |
+| [Sigma Detection Lab](https://github.com/WiLL75G/sigma-detection-lab) | Detection-as-code, Sigma rule authoring | Multi-technique | ✅ |
 | [Phishing Email Analysis](https://github.com/WiLL75G/soc-day02-phishing-email-analysis) | Email triage, IOC extraction | T1566 | ✅ |
-| [Splunk SIEM Alerts & Dashboard](https://github.com/WiLL75G/soc-day08-splunk-siem-alerts-dashboard) | Alert engineering, dashboards | — | ✅ |
+| [Splunk SIEM Alerts & Dashboard](https://github.com/WiLL75G/soc-day08-splunk-siem-alerts-dashboard) | Alert engineering, dashboards | T1078 | ✅ |
 | [Incident Response Playbook](https://github.com/WiLL75G/soc-day09-incident-response-playbook) | IR workflow, containment | — | ✅ |
 | [Network Traffic Analysis (Wireshark)](https://github.com/WiLL75G/soc-day18-network-traffic-analysis-wireshark-lab) | Packet inspection, anomaly detection | — | ✅ |
 | [MITRE ATT&CK Detection Coverage](https://github.com/WiLL75G/soc-day10-mitre-attack-mapping) | Detection mapping, coverage analysis | — | ✅ |
@@ -64,7 +68,7 @@ The detection, triage, and incident response work most representative of day-to-
 
 ## Goal
 
-Build a real-world SOC Analyst portfolio through hands-on detection, investigation, and documentation, and land an entry-level Blue Team role.
+Build a real-world detection engineering and SOC portfolio through hands-on detection, investigation, and documentation, and land an entry-level Blue Team role.
 
 ---
 
