@@ -3,7 +3,6 @@
 > Blue Team | Detection Engineering | Incident Response
 
 **Core stack:**
-
 ### SIEM & Detection
 ![Splunk](https://img.shields.io/badge/Splunk-000000?style=for-the-badge&logo=splunk&logoColor=white)
 ![SPL](https://img.shields.io/badge/SPL-000000?style=for-the-badge&logo=splunk&logoColor=white)
