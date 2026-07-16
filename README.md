@@ -1,11 +1,10 @@
-# Detection Engineering and SOC Portfolio
+## Detection Engineering & SOC Portfolio
 
-Blue team. Detection engineering. Incident response.
+> Blue Team | Detection Engineering | Incident Response
 
-## Core Stack
+**Core stack:**
 
-### SIEM and Detection
-
+### SIEM & Detection
 ![Splunk](https://img.shields.io/badge/Splunk-000000?style=for-the-badge&logo=splunk&logoColor=white)
 ![SPL](https://img.shields.io/badge/SPL-000000?style=for-the-badge&logo=splunk&logoColor=white)
 ![Microsoft Sentinel](https://img.shields.io/badge/Microsoft_Sentinel-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
@@ -15,8 +14,7 @@ Blue team. Detection engineering. Incident response.
 ![Suricata](https://img.shields.io/badge/Suricata-EF3B2D?style=for-the-badge&logoColor=white)
 ![Sigma](https://img.shields.io/badge/Sigma-008080?style=for-the-badge&logoColor=white)
 
-### Endpoint and Network
-
+### Endpoint & Network
 ![Sysmon](https://img.shields.io/badge/Sysmon-5391FE?style=for-the-badge&logo=microsoft&logoColor=white)
 ![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white)
 ![Nmap](https://img.shields.io/badge/Nmap-4682B4?style=for-the-badge&logo=nmap&logoColor=white)
@@ -25,20 +23,19 @@ Blue team. Detection engineering. Incident response.
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 
-### IR and Frameworks
-
+### IR & Frameworks
 ![ServiceNow](https://img.shields.io/badge/ServiceNow-62D84E?style=for-the-badge&logo=servicenow&logoColor=white)
 ![MITRE ATT&CK](https://img.shields.io/badge/MITRE_ATT%26CK-C8102E?style=for-the-badge&logoColor=white)
 
 ---
 
-## About
+## About Me
 
-I'm William, an early career detection engineer focused on defensive security, detection authoring, and incident response.
+I'm **William**, a detection engineer and SOC analyst (early-career) focused on **defensive security, detection engineering, and incident response**. This repository documents structured, hands-on work across the Blue Team skill stack: alert triage, log analysis, SIEM investigations, detection authoring, and threat hunting.
 
-Everything here is hands on work: rules I wrote, alerts I triaged to a verdict, investigations I closed on evidence, and the negative findings I documented when nothing was there. Labs, not production. Where a project's scope is limited, its README says so.
+Every project here is built to mirror the workflows of a working SOC, not tutorial replays. These are lab environments, and where a project's scope is limited, its README says so. The goal is demonstrable competence: detections I've written, incidents I've walked through end-to-end, and tooling I can speak to in an interview.
 
-Certifications: ISC2 Certified in Cybersecurity | CompTIA Security+ in progress
+**Certifications:** ISC2 Certified in Cybersecurity (CC) | CompTIA Security+ (in progress)
 
 ---
 
@@ -47,72 +44,57 @@ Certifications: ISC2 Certified in Cybersecurity | CompTIA Security+ in progress
 Two detection gaps reported to SigmaHQ, validated against real telemetry from my own lab.
 
 | Issue | Technique | Finding |
-|---|---|---|
-| [SigmaHQ #6056](https://github.com/SigmaHQ/sigma/issues/6056) | T1071.001 | False positive, Sysmon EID 3 firing on legitimate Azure traffic |
-| [SigmaHQ #6057](https://github.com/SigmaHQ/sigma/issues/6057) | T1136.001 | Coverage gap, ADSI and WinNT local user creation missed, Windows 4104 |
+|--------|-----------|---------|
+| [SigmaHQ #6056](https://github.com/SigmaHQ/sigma/issues/6056) | T1071.001 | False positive — Sysmon EID 3 firing on legitimate Azure traffic |
+| [SigmaHQ #6057](https://github.com/SigmaHQ/sigma/issues/6057) | T1136.001 | Coverage gap — ADSI/WinNT local user creation, Windows 4104 |
 
 Both reported by me. The remediation PR was opened by a community contributor.
 
 ---
 
-## Flagship Projects
+## Core SOC Projects
 
-The work most representative of detection engineering and day to day SOC operations.
+The detection, triage, and incident response work most representative of day-to-day SOC and detection engineering operations.
 
-| Project | What It Shows | Techniques |
-|---|---|---|
-| [Detection Engineering Labs](https://github.com/WiLL75G/detection-engineering-labs) | Four lab set. Same SSH brute force caught host side by Wazuh and network side by Suricata. Custom rules written from scratch, both fired on live Kali attacks. Plus ServiceNow incident lifecycle and Windows endpoint forensics | T1110, T1046, T1059.001 |
-| [Microsoft Sentinel SOC Lab](https://github.com/WiLL75G/sentinel-soc-lab-setup) | Full cloud SIEM build. Arc to AMA to DCR ingestion, KQL hunts. 88 failed logins and 8 successes traced to one source | T1110, T1059.001 |
-| [AI Era Detection Lab](https://github.com/WiLL75G/soc-ai-era-detection-lab) | NHI abuse, prompt injection, and MCP attack chains correlated into one kill chain. 1,877 records exfiltrated via a single IOC | Multi technique |
-| [Splunk SIEM Alerts and Dashboard](https://github.com/WiLL75G/soc-day08-splunk-siem-alerts-dashboard) | Four real time alerts and a four panel dashboard on live endpoint telemetry. Includes an honest assessment of why the rules are untuned | T1548.003, T1053.003, T1078.003 |
-| [SOC Shift Simulation Capstone](https://github.com/WiLL75G/soc-day15-soc-shift-simulation) | Three alerts eight hours apart, correlated to one campaign on a shared IP and a shared host. Full kill chain, IOC table, IR handoff | Full chain |
-| [Network Traffic Analysis](https://github.com/WiLL75G/soc-day18-network-traffic-analysis-wireshark-lab) | NetSupport RAT C2 in 15,512 packets. Beaconing confirmed, infected host identified by hostname and MAC via DHCP | T1219, T1071.001, T1571 |
-| [MITRE ATT&CK Coverage Assessment](https://github.com/WiLL75G/soc-day10-mitre-attack-mapping) | Audited my own detections against the matrix. Found coverage sits at the front of the kill chain and nothing watches exfiltration | Gap analysis |
-| [Incident Response Playbooks](https://github.com/WiLL75G/soc-day09-incident-response-playbook) | Three NIST 800-61 playbooks with the step analysts skip under pressure named in each | T1110, T1566, T1204 |
-
----
-
-## Detection and Investigation
-
-| Project | Focus |
-|---|---|
-| [SSH Brute Force Detection, Splunk](https://github.com/WiLL75G/soc-day01-ssh-brute-force-detection) | SPL field extraction, threshold logic, and the negative finding that closed it |
-| [Sigma Detection Lab](https://github.com/WiLL75G/sigma-detection-lab) | Detection as code, Sigma rule authoring |
-| [Wazuh EDR Lab](https://github.com/WiLL75G/soc-day22-edr-wazuh-endpoint-detection-lab) | Endpoint detection and response |
-| [Password Spray Detection](https://github.com/WiLL75G/soc-day06-ad-password-spray-detection) | Correlating 4625 across accounts, not within one |
-| [Windows Event Log Analysis](https://github.com/WiLL75G/soc-day04-windows-event-log-analysis) | Reading the sequence, not the event |
-| [Linux Log Analysis and File Integrity](https://github.com/WiLL75G/soc-day05-linux-log-analysis-file-integrity) | auth.log, process state, /etc integrity |
-| [Port Scan Detection, Wireshark](https://github.com/WiLL75G/soc-day03-port-scan-detection-wireshark) | TCP flags, open versus closed at packet level |
-| [Phishing Email Analysis](https://github.com/WiLL75G/soc-day02-phishing-email-analysis) | Header forensics, IOC extraction |
-| [Malware Triage and Threat Hunt](https://github.com/WiLL75G/soc-day07-malware-analysis-threat-hunting) | Static only, host hunted clean and documented |
-| [Threat Intelligence and OSINT](https://github.com/WiLL75G/soc-day14-threat-intelligence-osint) | Three IOCs across four platforms, correlated to one campaign |
-| [Digital Forensics Investigation](https://github.com/WiLL75G/soc-24-digital-forensics-investigation-lab) | DFIR workflow |
-| [AWS Cloud Security Investigation](https://github.com/WiLL75G/aws-detection-engineering) | CloudTrail JSON, service role versus human identity |
+| Project | Focus | Technique |
+|--------|-------|-----------|
+| [Detection Engineering Labs](https://github.com/WiLL75G/detection-engineering-labs) | Host + network detection, custom rules | T1110, T1046, T1059.001 |
+| [Microsoft Sentinel SOC Lab (KQL)](https://github.com/WiLL75G/sentinel-soc-lab-setup) | Cloud SIEM, KQL analytics rules, hunting | T1110, T1059.001 |
+| [AI Era Detection Lab](https://github.com/WiLL75G/soc-ai-era-detection-lab) | NHI abuse, prompt injection, MCP attack chains | Multi-technique |
+| [SSH Brute Force Detection (Splunk)](https://github.com/WiLL75G/soc-day01-ssh-brute-force-detection) | SIEM detection, log analysis | T1110 |
+| [Sigma Detection Lab](https://github.com/WiLL75G/sigma-detection-lab) | Detection-as-code, Sigma rule authoring | Multi-technique |
+| [Phishing Email Analysis](https://github.com/WiLL75G/soc-day02-phishing-email-analysis) | Email triage, IOC extraction | T1566 |
+| [Splunk SIEM Alerts & Dashboard](https://github.com/WiLL75G/soc-day08-splunk-siem-alerts-dashboard) | Alert engineering, dashboards | T1548.003, T1053.003 |
+| [Incident Response Playbooks](https://github.com/WiLL75G/soc-day09-incident-response-playbook) | IR workflow, containment | T1110, T1566, T1204 |
+| [Network Traffic Analysis (Wireshark)](https://github.com/WiLL75G/soc-day18-network-traffic-analysis-wireshark-lab) | Packet inspection, C2 detection | T1219, T1071.001 |
+| [SOC Shift Simulation Capstone](https://github.com/WiLL75G/soc-day15-soc-shift-simulation) | End-to-end shift, campaign correlation | Full chain |
+| [MITRE ATT&CK Detection Coverage](https://github.com/WiLL75G/soc-day10-mitre-attack-mapping) | Detection mapping, gap analysis | — |
 
 ---
 
-## Tooling and Automation
+## Additional Projects
 
 | Project | Focus |
-|---|---|
-| [SOC Analyst Toolkit](https://github.com/WiLL75G/soc-analyst-toolkit) | 55 curated tools across 13 sections |
+|--------|-------|
+| [Network Port Scan Detection (Wireshark)](https://github.com/WiLL75G/soc-day03-port-scan-detection-wireshark) | Recon detection |
+| [Windows Event Log Analysis](https://github.com/WiLL75G/soc-day04-windows-event-log-analysis) | Endpoint log triage |
+| [Linux Log Analysis & File Integrity](https://github.com/WiLL75G/soc-day05-linux-log-analysis-file-integrity) | Host integrity monitoring |
+| [Password Spray Detection](https://github.com/WiLL75G/soc-day06-ad-password-spray-detection) | Identity attack detection |
+| [Malware Analysis & Threat Hunting](https://github.com/WiLL75G/soc-day07-malware-analysis-threat-hunting) | Threat hunting |
+| [Vulnerability Scanning & Remediation](https://github.com/WiLL75G/soc-day11-vulnerability-scanning-remediation) | Vuln management |
+| [Firewall Hardening](https://github.com/WiLL75G/soc-day12-firewall-network-segmentation) | Network defense |
+| [PowerShell SOC Toolkit](https://github.com/WiLL75G/soc-day13-powershell-soc-toolkit) | Automation/scripting |
+| [Threat Intelligence & OSINT](https://github.com/WiLL75G/soc-day14-threat-intelligence-osint) | Threat intel |
+| [AWS Cloud Security Investigation](https://github.com/WiLL75G/aws-detection-engineering) | Cloud detection, CloudTrail |
+| [SOC Analyst Toolkit](https://github.com/WiLL75G/soc-analyst-toolkit) | 55 curated tools, 13 sections |
 | [Linux Triage Toolkit](https://github.com/WiLL75G/linux-triage-toolkit) | DFIR Bash modules |
-| [PowerShell SOC Toolkit](https://github.com/WiLL75G/soc-day13-powershell-soc-toolkit) | Six module endpoint triage, cross platform |
-| [CorpOps Shell Suite](https://github.com/WiLL75G/CorpOps-Shell-Suite) | Seven Bash projects, Nmap detection, Python OSINT |
-| [Regex Log Parsing Toolkit](https://github.com/WiLL75G/soc-day21-regex-log-parsing-toolkit) | Log parsing, SPL |
+| [CorpOps Shell Suite](https://github.com/WiLL75G/CorpOps-Shell-Suite) | Bash automation, Nmap detection, Python OSINT |
 | [SOC IOC Tracker](https://github.com/WiLL75G/soc-ioc-tracker) | 36 IOCs across 14 labs |
-
----
-
-## Hardening and Reporting
-
-| Project | Focus |
-|---|---|
-| [Firewall Hardening](https://github.com/WiLL75G/soc-day12-firewall-network-segmentation) | Default deny, and the rule that looked right and did nothing |
-| [Vulnerability Scanning and Remediation](https://github.com/WiLL75G/soc-day11-vulnerability-scanning-remediation) | Greenbone scan to prioritised remediation |
+| [Regex Log Parsing Toolkit](https://github.com/WiLL75G/soc-day21-regex-log-parsing-toolkit) | Log parsing, SPL |
+| [Wazuh EDR Lab](https://github.com/WiLL75G/soc-day22-edr-wazuh-endpoint-detection-lab) | EDR/endpoint detection |
+| [Digital Forensics Investigation](https://github.com/WiLL75G/soc-24-digital-forensics-investigation-lab) | DFIR |
 | [SOC Metrics Dashboard](https://github.com/WiLL75G/soc-26-soc-metrics-dashboard) | SOC reporting |
 | [Advanced Splunk Intelligence Platform](https://github.com/WiLL75G/soc-28-advanced-splunk-intelligence-platform) | Advanced SIEM |
-| [28 Day SOC Foundation](https://github.com/WiLL75G/soc-day01-ssh-brute-force-detection) | The first full build. Splunk ingest, SPL, dashboards, Wireshark, Nmap |
 
 ---
 
@@ -122,5 +104,13 @@ The work most representative of detection engineering and day to day SOC operati
 
 ---
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Gokah%20William-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/gokahwilliam)
+## Goal
+
+Build a real-world detection engineering and SOC portfolio through hands-on detection, investigation, and documentation, and land an entry-level Blue Team role.
+
+---
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-WilliamInCyber-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/WilliamInCyber)
 [![X](https://img.shields.io/badge/X-@WilliamInCyber-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/WilliamInCyber)
+
+> Open to networking and collaboration in cybersecurity and Blue Team learning.
