@@ -98,9 +98,6 @@ The detection, triage, and incident response work most representative of day-to-
 
 ---
 
-## Live Portfolio
-
-[will75g.github.io/-portfolio](https://will75g.github.io/-portfolio)
 
 ---
 
