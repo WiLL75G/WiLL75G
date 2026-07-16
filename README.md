@@ -45,8 +45,8 @@ Two detection gaps reported to SigmaHQ, validated against real telemetry from my
 
 | Issue | Technique | Finding |
 |--------|-----------|---------|
-| [SigmaHQ #6056](https://github.com/SigmaHQ/sigma/issues/6056) | T1071.001 | False positive — Sysmon EID 3 firing on legitimate Azure traffic |
-| [SigmaHQ #6057](https://github.com/SigmaHQ/sigma/issues/6057) | T1136.001 | Coverage gap — ADSI/WinNT local user creation, Windows 4104 |
+| [SigmaHQ #6056](https://github.com/SigmaHQ/sigma/issues/6056) | T1071.001 | False positive Sysmon EID 3 firing on legitimate Azure traffic |
+| [SigmaHQ #6057](https://github.com/SigmaHQ/sigma/issues/6057) | T1136.001 | Coverage gap ADSI/WinNT local user creation, Windows 4104 |
 
 Both reported by me. The remediation PR was opened by a community contributor.
 
