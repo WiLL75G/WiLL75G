@@ -109,5 +109,6 @@ Build a real-world detection engineering and SOC portfolio through hands-on dete
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-WilliamInCyber-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/WilliamInCyber)
 [![X](https://img.shields.io/badge/X-@WilliamInCyber-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/WilliamInCyber)
+[![Medium](https://img.shields.io/badge/Medium-@wgokahp-000000?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@wgokahp)
 
 > Open to networking and collaboration in cybersecurity and Blue Team learning.
