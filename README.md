@@ -79,10 +79,10 @@ The detection, triage, and incident response work most representative of day-to-
 | [Network Port Scan Detection (Wireshark)](https://github.com/WiLL75G/soc-day03-port-scan-detection-wireshark) | Recon detection |
 | [Windows Event Log Analysis](https://github.com/WiLL75G/soc-day04-windows-event-log-analysis) | Endpoint log triage |
 | [Linux Log Analysis & File Integrity](https://github.com/WiLL75G/soc-day05-linux-log-analysis-file-integrity) | Host integrity monitoring |
-| [Password Spray Detection](https://github.com/WiLL75G/soc-day06-ad-password-spray-detection) | Identity attack detection |
+| [Password Spray Detection](https://github.com/WiLL75G/soc-day06-password-spray-detection) | Identity attack detection |
 | [Malware Analysis & Threat Hunting](https://github.com/WiLL75G/soc-day07-malware-analysis-threat-hunting) | Threat hunting |
 | [Vulnerability Scanning & Remediation](https://github.com/WiLL75G/soc-day11-vulnerability-scanning-remediation) | Vuln management |
-| [Firewall Hardening](https://github.com/WiLL75G/soc-day12-firewall-network-segmentation) | Network defense |
+| [Firewall Hardening](https://github.com/WiLL75G/soc-day12-firewall-hardening) | Network defense |
 | [PowerShell SOC Toolkit](https://github.com/WiLL75G/soc-day13-powershell-soc-toolkit) | Automation/scripting |
 | [Threat Intelligence & OSINT](https://github.com/WiLL75G/soc-day14-threat-intelligence-osint) | Threat intel |
 | [AWS Cloud Security Investigation](https://github.com/WiLL75G/aws-detection-engineering) | Cloud detection, CloudTrail |
