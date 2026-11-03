@@ -1,4 +1,4 @@
-## Detection Engineering & SOC Portfolio
+## SOC Investigations | Detection Engineering Labs
 
 > Blue Team | Detection Engineering | Incident Response
 
