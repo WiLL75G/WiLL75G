@@ -1,9 +1,32 @@
 
-# SOC Investigations | Detection Engineering Labs
+## SOC Investigations | Detection Engineering Labs
 
-**Security Operations | Incident Investigation | Detection Validation**
+> Blue Team | Detection Engineering | Incident Response
 
-Independent cybersecurity labs focused on investigating suspicious activity, analyzing security telemetry, developing detections, and documenting evidence-based findings.
+**Core stack:**
+
+### SIEM & Detection
+![Splunk](https://img.shields.io/badge/Splunk-000000?style=for-the-badge&logo=splunk&logoColor=white)
+![SPL](https://img.shields.io/badge/SPL-000000?style=for-the-badge&logo=splunk&logoColor=white)
+![Microsoft Sentinel](https://img.shields.io/badge/Microsoft_Sentinel-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
+![Microsoft Azure](https://img.shields.io/badge/Microsoft_Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
+![KQL](https://img.shields.io/badge/KQL-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
+![Wazuh](https://img.shields.io/badge/Wazuh-005792?style=for-the-badge&logo=wazuh&logoColor=white)
+![Suricata](https://img.shields.io/badge/Suricata-EF3B2D?style=for-the-badge&logoColor=white)
+![Sigma](https://img.shields.io/badge/Sigma-008080?style=for-the-badge&logoColor=white)
+
+### Endpoint & Network
+![Sysmon](https://img.shields.io/badge/Sysmon-5391FE?style=for-the-badge&logo=microsoft&logoColor=white)
+![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white)
+![Nmap](https://img.shields.io/badge/Nmap-4682B4?style=for-the-badge&logo=nmap&logoColor=white)
+![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=for-the-badge&logo=powershell&logoColor=white)
+![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+
+### IR & Frameworks
+![ServiceNow](https://img.shields.io/badge/ServiceNow-62D84E?style=for-the-badge&logo=servicenow&logoColor=white)
+![MITRE ATT&CK](https://img.shields.io/badge/MITRE_ATT%26CK-C8102E?style=for-the-badge&logoColor=white)
 
 ---
 
@@ -11,215 +34,117 @@ Independent cybersecurity labs focused on investigating suspicious activity, ana
 
 I focus on Security Operations, incident investigation, and detection validation through independent cybersecurity labs and documented technical projects.
 
-My work includes SIEM investigations, endpoint and network telemetry analysis, detection development, and technical incident documentation.
+My work includes SIEM investigations, endpoint and network telemetry analysis, detection development, and evidence-based incident documentation using Splunk, Microsoft Sentinel, Wazuh, Sysmon, and related security tools.
 
-I have worked with Splunk, Microsoft Sentinel, Wazuh, Windows Security Logs, Sysmon, PowerShell, Suricata, and Wireshark across controlled security investigation scenarios.
+I document what I investigated, the evidence examined, the decisions made, and the limitations of each finding.
 
-My investigation approach focuses on understanding the baseline, examining relevant events, correlating activity, identifying evidence gaps, and reaching defensible conclusions.
+My primary career target is SOC Analyst Tier 1, with continued development toward Tier 2 investigations and Detection Engineering.
 
-I distinguish between detection logic that has been written, tested, and validated against observed telemetry.
+These are independent lab projects and simulations, not claims of professional SOC employment.
 
-My portfolio documents the investigations performed, evidence examined, findings reached, and limitations identified.
-
-**Career Focus:** SOC Analyst Tier 1, with continued development toward Tier 2 investigations and Detection Engineering.
-
-**Experience Context:** Independent cybersecurity home labs and simulated security operations, not production SOC employment.
-
-**Certification:** ISC2 Certified in Cybersecurity (CC)
-
-**Current Studies:** CompTIA Security+
+**Certification:** ISC2 Certified in Cybersecurity (CC)  
+**Current studies:** CompTIA Security+
 
 ---
 
-## Core Technical Areas
+## Upstream Contributions
 
-| Area | Tools and Technologies |
-|---|---|
-| SIEM & Log Analysis | Splunk, SPL, Microsoft Sentinel, KQL, Wazuh |
-| Endpoint & Identity | Windows Security Logs, Sysmon, PowerShell, Active Directory |
-| Network Security | Wireshark, Suricata, Zeek, TCP/IP, DNS |
-| Detection Development | Sigma, SIEM Detection Rules, MITRE ATT&CK |
-| Incident Investigation | Alert Triage, Event Correlation, Technical Documentation |
-| Scripting | PowerShell, Python, Bash |
+Two detection findings reported to SigmaHQ based on telemetry from my independent lab.
 
----
+| Issue | Technique | Finding |
+|--------|-----------|---------|
+| [SigmaHQ #6056](https://github.com/SigmaHQ/sigma/issues/6056) | T1071.001 | False positive - Sysmon EID 3 firing on legitimate Azure traffic |
+| [SigmaHQ #6057](https://github.com/SigmaHQ/sigma/issues/6057) | T1136.001 | Coverage gap - ADSI/WinNT local user creation, Windows 4104 |
 
-## Upstream Detection Contributions
-
-Reported two detection findings to the SigmaHQ community, based on observations from my independent lab telemetry.
-
-| Contribution | MITRE ATT&CK | Finding |
-|---|---|---|
-| [SigmaHQ Issue #6056](https://github.com/SigmaHQ/sigma/issues/6056) | T1071.001 | False positive involving Sysmon Event ID 3 and legitimate Azure network traffic |
-| [SigmaHQ Issue #6057](https://github.com/SigmaHQ/sigma/issues/6057) | T1136.001 | Detection coverage gap involving ADSI/WinNT local user creation and PowerShell Event ID 4104 |
-
-These issues document the findings I reported. A community contributor opened the remediation pull request.
+Both reported by me. The remediation PR was opened by a community contributor.
 
 ---
 
-## Selected SOC & Detection Projects
+## Featured Projects
 
-A selection of independent security investigations, SIEM detection work, and simulated SOC operations from my technical portfolio.
+Selected investigation, detection, and simulated SOC operations projects from my independent technical portfolio.
 
-### 01 | SSH Brute Force Detection with Splunk
+<table>
+<tr>
+<td width="33%" valign="top">
 
-**Focus:** Security Monitoring & Alert Investigation
+![](https://img.shields.io/badge/SSHBRUTE-333333?style=flat-square)![](https://img.shields.io/badge/SPLUNK-EF4444?style=flat-square)
 
-Investigated SSH authentication activity in a controlled Linux lab using Splunk.
+**[SSH Brute Force Detection](https://github.com/WiLL75G/soc-day01-ssh-brute-force-detection)**
 
-- Analyzed repeated authentication failures.
-- Developed SPL searches to identify source activity.
-- Examined subsequent authentication events.
-- Distinguished observed password guessing from confirmed successful access.
-- Documented investigation findings and evidence limitations.
+Splunk SIEM detection & log analysis for credential attacks
 
-**Technologies:** Splunk, SPL, Linux Authentication Logs
+`T1110`
 
-**MITRE ATT&CK:** T1110
+</td>
+<td width="33%" valign="top">
 
-[View Investigation Repository](https://github.com/WiLL75G/soc-day01-ssh-brute-force-detection)
+![](https://img.shields.io/badge/ADVSPLUNK-333333?style=flat-square)![](https://img.shields.io/badge/ADVANCED_SIEM-EF4444?style=flat-square)
 
----
+**[Advanced Splunk Intelligence Platform](https://github.com/WiLL75G/soc-28-advanced-splunk-intelligence-platform)**
 
-### 02 | Advanced Splunk Intelligence Platform
+SPL detection queries, threat hunting playbooks & lab validation
 
-**Focus:** SIEM Analysis & Detection Development
+</td>
+<td width="33%" valign="top">
 
-Developed an SPL detection and threat hunting library for investigating suspicious activity across controlled lab scenarios.
+![](https://img.shields.io/badge/SENTINELLAB-333333?style=flat-square)![](https://img.shields.io/badge/CLOUD_SIEM-7EE8E8?style=flat-square)
 
-- Developed 12 SPL detection queries.
-- Created 4 threat hunting playbooks.
-- Documented validation of 4 detection scenarios against lab telemetry.
-- Investigated authentication, PowerShell, and network activity.
-- Identified considerations for detection coverage and false positives.
+**[Microsoft Sentinel SOC Lab](https://github.com/WiLL75G/sentinel-soc-lab-setup)**
 
-The remaining detection queries are not presented as fully validated.
+Cloud SIEM with KQL analytics rules & threat hunting
 
-**Technologies:** Splunk, SPL, Windows and Linux Telemetry
+`T1110` `T1059.001`
 
-[View Detection Repository](https://github.com/WiLL75G/soc-28-advanced-splunk-intelligence-platform)
+</td>
+</tr>
+<tr>
+<td width="33%" valign="top">
 
----
+![](https://img.shields.io/badge/DETECTIONLABS-333333?style=flat-square)![](https://img.shields.io/badge/DETECTION_ENG-8CE196?style=flat-square)
 
-### 03 | Microsoft Sentinel SOC Lab
+**[Detection Engineering Labs](https://github.com/WiLL75G/detection-engineering-labs)**
 
-**Focus:** Cloud SIEM & Security Investigation
+Host + network detection with custom Wazuh, Suricata & PowerShell rules
 
-Built a Microsoft Sentinel lab to practice security monitoring, KQL analysis, and investigation workflows.
+`T1110` `T1046` `T1059.001`
 
-- Configured a cloud-based SIEM investigation environment.
-- Worked with security telemetry and KQL queries.
-- Developed lab analytics and detection logic.
-- Investigated simulated SSH and PowerShell security scenarios.
-- Documented the lab environment and investigation workflow.
+</td>
+<td width="33%" valign="top">
 
-**Technologies:** Microsoft Sentinel, Microsoft Azure, KQL
+![](https://img.shields.io/badge/PHISHTRIAGE-333333?style=flat-square)![](https://img.shields.io/badge/EMAIL_TRIAGE-7EE8E8?style=flat-square)
 
-**MITRE ATT&CK:** T1110, T1059.001
+**[Phishing Email Analysis](https://github.com/WiLL75G/soc-day02-phishing-email-analysis)**
 
-[View Sentinel SOC Lab](https://github.com/WiLL75G/sentinel-soc-lab-setup)
+Email triage & IOC extraction workflow
 
----
+`T1566`
 
-### 04 | Detection Engineering Labs
+</td>
+<td width="33%" valign="top">
 
-**Focus:** Detection Development & Validation
+![](https://img.shields.io/badge/SHIFTSIM-333333?style=flat-square)![](https://img.shields.io/badge/CAPSTONE-8CE196?style=flat-square)
 
-Developed and tested security detection logic using endpoint and network telemetry in controlled lab environments.
+**[SOC Shift Simulation Capstone](https://github.com/WiLL75G/soc-day15-soc-shift-simulation)**
 
-- Developed custom Wazuh detection rules.
-- Created Suricata rules for suspicious network activity.
-- Investigated PowerShell-related security events.
-- Generated controlled activity to examine detection behavior.
-- Documented observed alerts, validation results, and detection limitations.
+Simulated SOC shift with alert triage & campaign correlation
 
-**Technologies:** Wazuh, Suricata, PowerShell, Windows Security Telemetry
+`Full chain`
 
-**MITRE ATT&CK:** T1110, T1046, T1059.001
-
-[View Detection Engineering Labs](https://github.com/WiLL75G/detection-engineering-labs)
+</td>
+</tr>
+</table>
 
 ---
 
-### 05 | Phishing Email Analysis
+## Career Goal
 
-**Focus:** Email Security & Initial Investigation
-
-Practiced phishing email investigation using a documented lab analysis workflow.
-
-- Examined suspicious email characteristics.
-- Analyzed available message indicators.
-- Investigated potential indicators of compromise.
-- Documented findings and supporting evidence.
-- Practiced structured phishing triage.
-
-**Focus Areas:** Email Analysis, Indicator Extraction, Security Investigation
-
-**MITRE ATT&CK:** T1566
-
-[View Phishing Investigation](https://github.com/WiLL75G/soc-day02-phishing-email-analysis)
+Apply my documented independent SOC investigation and detection development work to an entry-level Security Operations role, while continuing to build deeper investigation and detection engineering capabilities.
 
 ---
 
-### 06 | SOC Shift Simulation Capstone
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-WilliamInCyber-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/WilliamInCyber)
+[![X](https://img.shields.io/badge/X-@WilliamInCyber-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/WilliamInCyber)
+[![Medium](https://img.shields.io/badge/Medium-WilliamInCyber-000000?style=for-the-badge&logo=medium)](https://medium.com/@WilliamInCyber)
 
-**Focus:** SOC Operations & Investigation Workflow
-
-Completed a simulated SOC shift exercise designed to practice investigation and incident handling decisions in a controlled environment.
-
-- Practiced security alert triage.
-- Reviewed related security activity.
-- Worked through incident correlation scenarios.
-- Documented investigation findings.
-- Practiced incident handling and reporting workflows.
-
-This project represents a lab simulation, not professional SOC shift experience.
-
-**Focus Areas:** Alert Triage, Investigation, Event Correlation, Incident Documentation
-
-[View SOC Shift Simulation](https://github.com/WiLL75G/soc-day15-soc-shift-simulation)
-
----
-
-## Investigation Approach
-
-My investigations follow an evidence-first process:
-
-**Baseline → Activity → Triage → Investigation → Correlation → Evidence Gaps → Disposition → Documentation**
-
-I focus on answering five questions:
-
-1. What activity was observed?
-2. What does the evidence support?
-3. What related events provide additional context?
-4. What remains unknown or unverified?
-5. What conclusion or next investigation action is justified?
-
-I use MITRE ATT&CK mapping where the observed behavior supports the technique.
-
-I treat tool deployment, alert generation, and detection validation as separate activities requiring different levels of evidence.
-
----
-
-## Career Direction
-
-My primary target is a **SOC Analyst Tier 1** role within an enterprise security team, internal SOC, MDR provider, or MSSP.
-
-I bring documented independent lab practice involving SIEM investigations, endpoint and network telemetry, detection development, and technical reporting.
-
-My continuing development focuses on deeper Tier 2 investigations, operational security monitoring, and Detection Engineering.
-
-The objective is to apply my existing technical foundation in a professional SOC environment while continuing to improve investigation judgment and operational readiness.
-
----
-
-## Connect
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-WilliamInCyber-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/WilliamInCyber)
-
-[![X](https://img.shields.io/badge/X-WilliamInCyber-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/WilliamInCyber)
-
-[![Medium](https://img.shields.io/badge/Medium-WilliamInCyber-000000?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@WilliamInCyber)
-
-**Open to professional networking, technical collaboration, and relevant SOC opportunities.**
-
+> Open to networking and collaboration in cybersecurity and Blue Team learning.
