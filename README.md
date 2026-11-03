@@ -1,3 +1,4 @@
+
 ## SOC Investigations | Detection Engineering Labs
 
 > Blue Team | Detection Engineering | Incident Response
@@ -31,11 +32,18 @@
 
 ## About Me
 
-I'm **William**, a detection engineer and SOC analyst (early-career) focused on **defensive security, detection engineering, and incident response**. This repository documents structured, hands-on work across the Blue Team skill stack: alert triage, log analysis, SIEM investigations, detection authoring, and threat hunting.
+I focus on Security Operations, incident investigation, and detection validation through independent cybersecurity labs and documented technical projects.
 
-Every project here is built to mirror the workflows of a working SOC, not tutorial replays. These are lab environments, and where a project's scope is limited, its README says so. The goal is demonstrable competence: detections I've written, incidents I've walked through end-to-end, and tooling I can speak to in an interview.
+My work includes SIEM investigations, endpoint and network telemetry analysis, detection development, and evidence-based incident documentation using Splunk, Microsoft Sentinel, Wazuh, Sysmon, and related security tools.
 
-**Certifications:** ISC2 Certified in Cybersecurity (CC) | CompTIA Security+ (in progress)
+I document what I investigated, the evidence examined, the decisions made, and the limitations of each finding.
+
+My primary career target is SOC Analyst Tier 1, with continued development toward Tier 2 investigations and Detection Engineering.
+
+These are independent lab projects and simulations, not claims of professional SOC employment.
+
+**Certification:** ISC2 Certified in Cybersecurity (CC)  
+**Current studies:** CompTIA Security+
 
 ---
 
@@ -385,9 +393,9 @@ Advanced SIEM
 
 ---
 
-## Goal
+## Career Goal
 
-Build a real-world detection engineering and SOC portfolio through hands-on detection, investigation, and documentation, and land an entry-level Blue Team role.
+Apply my documented independent SOC investigation and detection development work to an entry-level Security Operations role, while continuing to build deeper investigation and detection engineering capabilities.
 
 ---
 
@@ -396,3 +404,4 @@ Build a real-world detection engineering and SOC portfolio through hands-on dete
 [![Medium](https://img.shields.io/badge/Medium-WilliamInCyber-000000?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@WilliamInCyber)
 
 > Open to networking and collaboration in cybersecurity and Blue Team learning.
+
