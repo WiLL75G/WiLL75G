@@ -38,12 +38,13 @@ My work includes SIEM investigations, endpoint and network telemetry analysis, d
 
 I document what I investigated, the evidence examined, the decisions made, and the limitations of each finding.
 
-My primary career target is SOC Analyst Tier 1, with continued development toward Tier 2 investigations and Detection Engineering.
+My primary career target is a remote MSSP SOC Tier 1 role, with continued development toward Tier 2 investigations and Detection Engineering.
 
 These are independent lab projects and simulations, not claims of professional SOC employment.
 
-**Certification:** ISC2 Certified in Cybersecurity (CC)  
-**Current studies:** CompTIA Security+
+**Certifications:**
+- CompTIA Security+ (SY0-701)
+- ISC2 Certified in Cybersecurity (CC)
 
 ---
 
